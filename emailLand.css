@@ -1,0 +1,115 @@
+body, html{
+    margin: 0;
+    background: #E9C4BC;
+}
+
+h1 {
+    font-family: 'Lato';
+    letter-spacing: .5px;
+    
+}
+
+p {
+    font-family: 'Arial';
+    color: #2f4f4f;
+    
+}
+
+.button {
+    background: black;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*mobile under 600px */
+@media screen and (max-width: 761px) {
+.body{
+max-width: 761px;
+background: white;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 30px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+
+h1 {
+    line-height: 3px;
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-family: 'Noto Sans KR';
+    font-size: medium;
+    
+
+}
+
+p {
+    padding: 5px;
+    display:flex;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height:23px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0em;
+}
+
+form input {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0em;
+    font-family: 'Arial';
+    text-decoration: underline, black;
+    margin:auto;
+    padding: 7px;
+}
+
+form button {
+    background: black;
+    font: 'Arial' solid white;
+    font-weight: heavy;
+    max-width: 150px;
+    max-height: 70px;
+    margin:auto;
+}
+
+img {
+max-height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+}
+
+}
+
+/* Screens bigger than 801px */
+@media screen and (min-width: 762px) {
+
+}
+
+/* screens bigger than 1000 px */
+@media screen and (min-width: 1280px) {
+
+}
