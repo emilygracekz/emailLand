@@ -1,37 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans+KR&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans+KR&display=swap" rel="stylesheet">
 
 
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>HTML Base</title>
-  <link rel="stylesheet" href="emailLand.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="emailLand.css">
 </head>
 
 <body>
-<div class="body">
-    <h2>PURSE 4 PURSE</h2>
-    <h1>Roses are red</h1>
-    <h1>Violets are blue</h1>
-    <h1>Screw flowers</h1>
-    <h1>Swap me that purse!</h1>
-    <img src="pinkpurse.png" name="purse">
-    <p>Hey babe, your swap party just got real - convenient that is! Buy a new purse or trade one of your own. You'll find plenty to choose from in our dream closet.</p>
-    <p>::Your exclusive invite awaits - feel free to bring a friend::</p>
+    <!-- left side of the page -->
+    <div class="left">
 
-    <form action="https://getform.io/f/bdda47df-89fa-45e6-ba16-4b5c03e05a51" method="POST" name="purse-form">
-        <input type="email" name="email" placeholder="📧 Email address"required>
-       <button type="submit">GET ON THE LIST</button>
-    </form>
-<p>Social media links</p>
-<p>Contact us: info@purse4purse.com</p>
-</div>    
+        <!-- logo -->
+        <div class="logo">
+            <h2>PURSE 4 PURSE</h2>
+        </div>
 
-<script src="emailLand.js"></script>
+        <!-- headline -->
+        <div class="headline">
+            <h1>Roses are red<br />Violets are blue<br />Screw flowers<br />Swap me that purse!</h1>
+        </div>
+
+        <!-- mobile image -->
+        <div class="mobile-image">
+            <img src="smallpurse.png" name="mobile-image">
+        </div>
+
+        <!-- text -->
+        <div class="text">
+            <p>Hey babe, your swap party just got real - convenient that is! Buy a new purse or trade one of your own.
+                You'll find plenty to choose from in our dream closet.<br /><br />::Your exclusive invite awaits - feel
+                free
+                to
+                bring a friend::</p>
+        </div>
+
+        <!-- form -->
+        <div class="form">
+            <div class="input"><form action="https://getform.io/f/bdda47df-89fa-45e6-ba16-4b5c03e05a51" method="POST" name="purse-form">
+                <input type="email" name="email" placeholder="📧 Email address" required></div>
+
+        <div class="button"><button type="submit">GET ON THE LIST</button></div>
+        </form>
+    </div>
+
+
+        <!-- socials -->
+        <div class="social">
+            <p>Social media links</p>
+        </div>
+    </div>
+
+    
+
+    <div class="right">
+    <!-- desktop image -->
+    <div class="desktop-image">
+        <img src="bigpurse.png" name="desktop-image">
+    </div>
+    </div>
+
+    <!-- contact info -->
+    <div class="contact">
+        <p>Contact us: info@purse4purse.com</p>
+    </div>
+
+
+    <script src="emailLand.js"></script>
 </body>
 
 </html>
