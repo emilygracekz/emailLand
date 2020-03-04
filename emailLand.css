@@ -17,6 +17,7 @@ p {
 p {
   font-family: "Arial", sans-serif;
   color: #2f4f4f;
+  width: 75%;
 }
 
 body {
@@ -53,9 +54,9 @@ form button {
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*mobile under 600px */
@@ -81,15 +82,13 @@ form button {
 
   .form {
     text-align: center;
-}
+  }
 
   input {
     width: 250px;
     text-align: center;
     font-size: 12px;
-
   }
-
 
   button {
     width: 250px;
@@ -106,7 +105,13 @@ form button {
   }
 
   .desktop-image {
-      display: none;
+    display: none;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
   }
 }
 
@@ -115,14 +120,15 @@ form button {
   .left {
     width: 50%;
     float: left;
+    padding-left: 100px;
+    padding-top: 40px;
   }
 
   .right {
-    width: 50%;
-    float: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 40px;
   }
 
   h1 {
@@ -138,7 +144,13 @@ form button {
   }
 
   .form {
-      text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    text-align: left;
   }
 
   input {
@@ -156,26 +168,21 @@ form button {
     font-size: 12px;
   }
 
-  .desktop-image {
-      height: 70%;
-      width: 70%;
+  img {
+    justify-content: center;
+    max-height: 30%;
+    max-width: 90%;
+    border-radius: 3px;
   }
 
   .mobile-image {
-      display: none;
+    display: none;
   }
 
   .social {
     text-align: center;
-}
+    padding-top: 40px;
+    padding-right: 100px;
+  }
 
-  /* .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-} */
-  
 }
-/* screens bigger than 1280 px */
-/* @media screen and (min-width: 1280px) { */
-/* } */
