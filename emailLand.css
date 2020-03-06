@@ -17,7 +17,6 @@ p {
 p {
   font-family: "Arial", sans-serif;
   color: #2f4f4f;
-  width: 75%;
 }
 
 body {
@@ -72,7 +71,6 @@ form button {
   }
 
   h2 {
-    margin-bottom: 50px;
     margin-left: 10px;
   }
 
@@ -117,36 +115,45 @@ form button {
 
 /* Screens bigger than 780px */
 @media screen and (min-width: 780px) {
+ 
+ 
   .left {
-    width: 50%;
     float: left;
     padding-left: 100px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    width: 50%;
+  }
+
+  .left2 {
+    justify-content: left;
+    padding-left: -40px;
   }
 
   .right {
+    float: right;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding-top: 40px;
+    width: 40%;
+    margin-top: 50px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 43px;
   }
 
   h2 {
     font-size: 20px;
+    margin-bottom: 50px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 17px;
+    width: 60%;
   }
 
   .form {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    padding-top: 20px;
+    /* padding-left: 50px; */
   }
 
   .logo {
@@ -160,7 +167,7 @@ form button {
   }
 
   button {
-    width: 250px;
+    width: 260px;
     height: 40px;
     background-color: black;
     color: white;
@@ -168,11 +175,16 @@ form button {
     font-size: 12px;
   }
 
-  img {
-    justify-content: center;
+  /* img {
+    text-align: center; 
+    padding: 10px;
+  }  */
+
+  .desktop-image.resize {
+    
     max-height: 30%;
-    max-width: 90%;
-    border-radius: 3px;
+    max-width: 30%;
+
   }
 
   .mobile-image {
@@ -180,9 +192,13 @@ form button {
   }
 
   .social {
-    text-align: center;
+    padding-left: 70px;
     padding-top: 40px;
-    padding-right: 100px;
   }
 
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
