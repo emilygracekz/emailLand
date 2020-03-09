@@ -135,6 +135,7 @@ form button {
     justify-content: center;
     width: 40%;
     margin-top: 50px;
+    overflow: hidden;
   }
 
   h1 {
@@ -175,16 +176,8 @@ form button {
     font-size: 12px;
   }
 
-  /* img {
-    text-align: center; 
-    padding: 10px;
-  }  */
-
-  .desktop-image.resize {
-    
-    max-height: 30%;
-    max-width: 30%;
-
+  .desktop-image {
+  max-width: 100%;
   }
 
   .mobile-image {
